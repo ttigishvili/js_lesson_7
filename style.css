@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Prompt');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-section {
+    padding: 10px ;
+    
+}
+body{
+    background-image: url(images/best-background-for-website-01.jpg);
+   
+}
+
+.button{
+
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+      }
+
+
+.second-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Prompt';
+    color: #28a1a1;
+}
+.first-div{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+
+
+
+.prev:hover, .next:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+ }
+ 
+ img {
+     border-radius: 70px;
+ }
+ 
+ .prev {
+     margin-right: 30px;
+ }
+
+ 
+.li-content{
+    display: flex;
+}
+.li-content span{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+.sec_div{
+    width: 100%;
+}
+#list1{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#list1 li{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.prev,.next{
+    width: 150px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: #28a1a1; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+      }
+
+
+.h1-wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 50px;
+    font-size: 40px;
+    font-family: 'Russo One'
+}
